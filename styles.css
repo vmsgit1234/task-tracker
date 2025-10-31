@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #222;
+}
+
+/* Form section */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+button {
+  width: fit-content;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Filters section */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* Tasks list */
+.task-list {
+  margin-top: 20px;
+}
+
+.task-card {
+  background: #f1f3f6;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 5px solid #007bff;
+}
+
+.task-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.task-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Insights section */
+.insights {
+  margin-top: 30px;
+  background: #eaf3ff;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.insights p {
+  margin: 0;
+  font-weight: bold;
+}
